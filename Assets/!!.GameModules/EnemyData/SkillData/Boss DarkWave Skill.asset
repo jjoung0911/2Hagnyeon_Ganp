@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b40f6d39b944f7b16eeef6b0166255, type: 3}
+  m_Name: Boss DarkWave Skill
+  m_EditorClassIdentifier: Assembly-CSharp::Agents.CombatSystem.SkillDataSO
+  skillName: Dark Wave
+  cooldown: 6
+  skillIndex: 4
+  damage: 18
+  icon: {fileID: 0}
+  upgradeTiers: []

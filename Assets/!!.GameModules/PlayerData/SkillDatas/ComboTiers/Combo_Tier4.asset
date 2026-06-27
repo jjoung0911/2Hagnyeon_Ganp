@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47968d3ff3c441940b5d7cca475482fd, type: 3}
+  m_Name: Combo_Tier4
+  m_EditorClassIdentifier: Assembly-CSharp::Agents.CombatSystem.SkillUpgradeSO
+  targetSkill: Player.Skills.PlayerAttackCombo
+  targetFields:
+  - targetField: _comboBonus
+    kind: 1
+    floatValue: 2
+    intValue: 2
+    boolValue: 0
+  - targetField: _attackSpeedBonus
+    kind: 0
+    floatValue: 0.1
+    intValue: 0
+    boolValue: 0
+  - targetField: _comboCoef1
+    kind: 0
+    floatValue: 1
+    intValue: 1
+    boolValue: 0
+  - targetField: _comboCoef2
+    kind: 0
+    floatValue: 1.2
+    intValue: 1
+    boolValue: 0
+  - targetField: _comboCoef3
+    kind: 0
+    floatValue: 1.8
+    intValue: 2
+    boolValue: 0
+  - targetField: _stackAtkSpeedPerStack
+    kind: 0
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  - targetField: _stackDamagePerStack
+    kind: 0
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  - targetField: _maxStacks
+    kind: 1
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  tierName: "\uAC80\uC131 Lv5 \u2014 \uC794\uC0C1 \uBCA0\uAE30"
+  description: "3\uD0C0 \uC801\uC911 \uC2DC \uC794\uC0C1 \uBCA0\uAE30(\uBC94\uC704)\uAC00
+    \uBC1C\uC0DD\uD569\uB2C8\uB2E4. (\uCC38\uACA9 150%)"
+  upgradeCost: 1
+  damageMultiplier: 1
+  cooldownMultiplier: 1
+  extraValues:
+  - 2
+  - 0.1
+  - 1
+  - 1.2
+  - 1.8
+  - 0
+  - 0
+  - 0
+  unlockedFlags: 0101

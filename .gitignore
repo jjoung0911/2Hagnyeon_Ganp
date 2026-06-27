@@ -1,0 +1,84 @@
+# ===== Unity 생성 폴더 =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/ProfilerCaptures/
+/GeneratedAssets/
+/UIElementsSchema/
+
+# Unity3D 자동 생성 메타/캐시
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== 자동 생성 프로젝트 파일 =====
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D 빌드 산출물
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# ===== IDE / 에디터 =====
+/.vs/
+/.idea/
+/.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== 프로젝트 로컬 작업 폴더 =====
+/.scratch/
+/.sound_backup/
+/.agents/
+
+# ===== 대용량 외부 에셋 / 아트 (git 제외 — 스토어에서 재임포트) =====
+# _Graphics 전체: 애니메이션(PlayerAnimation), FX(TopDownEffects 등), SDF 폰트 포함 (~3.9GB)
+/Assets/_Graphics/
+/Assets/_Graphics.meta
+# 외부 스토어 패키지
+/Assets/PureNature/
+/Assets/PureNature.meta
+/Assets/25 Rpg Game Tracks/
+/Assets/25 Rpg Game Tracks.meta
+/Assets/Synty/
+/Assets/Synty.meta
+/Assets/Action_RPG_SFX/
+/Assets/Action_RPG_SFX.meta
+/Assets/BOXOPHOBIC/
+/Assets/BOXOPHOBIC.meta
+/Assets/BOXOPHOBIC+/
+/Assets/BOXOPHOBIC+.meta
+# 캐시 / 복구 / 스크린샷
+/Assets/DownloadCache/
+/Assets/DownloadCache.meta
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+/Assets/Screenshots/
+/Assets/Screenshots.meta

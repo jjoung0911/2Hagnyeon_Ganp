@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b40f6d39b944f7b16eeef6b0166255, type: 3}
+  m_Name: SwordRainSkillData
+  m_EditorClassIdentifier: Assembly-CSharp::Agents.CombatSystem.SkillDataSO
+  skillName: SWORDRAIN
+  cooldown: 4
+  skillIndex: 9
+  hudOrder: 0
+  damage: 70
+  icon: {fileID: 21300000, guid: 1954f1670f047b74f9da29f6fee431c7, type: 3}
+  upgradeTiers:
+  - {fileID: 11400000, guid: cbe50154f40d2274a89c34c30064e7c1, type: 2}
+  - {fileID: 11400000, guid: d06b4ebee07601544a89f6215eec4990, type: 2}
+  - {fileID: 11400000, guid: 659b80721c2b8ca4dadedd0b54b3cd9f, type: 2}
+  - {fileID: 11400000, guid: 96bbccd6fb152aa4397aceb020345e7b, type: 2}
+  - {fileID: 11400000, guid: a9c87de0a72b70742a29da1ab63f81ff, type: 2}
+  - {fileID: 11400000, guid: e9d4bd27e6821c043b463a80445a089d, type: 2}
+  - {fileID: 11400000, guid: 3d7620ba716172a4a84cf65137b9f1a5, type: 2}

@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Foldout text="기본 정보" name="GeneralFoldout" value="true">
+            <uie:PropertyField binding-path="tierName" label="단계 이름"/>
+            <uie:PropertyField binding-path="description" label="설명"/>
+            <uie:PropertyField binding-path="upgradeCost" label="업그레이드 비용"/>
+        </ui:Foldout>
+        <ui:Foldout text="공통 배율" name="MultiplierFoldout" value="true">
+            <uie:PropertyField binding-path="damageMultiplier" label="데미지 배율"/>
+            <uie:PropertyField binding-path="cooldownMultiplier" label="쿨다운 배율"/>
+        </ui:Foldout>
+        <ui:VisualElement name="TargetSkillSection" style="margin-top: 6px;">
+            <ui:Label text="필드 덮어쓰기" style="-unity-font-style: bold; margin-bottom: 2px;"/>
+            <ui:DropdownField label="대상 스킬" name="TargetSkillDropdownField"/>
+            <ui:ListView name="UpgradeDataListView" header-title="대상 필드" show-foldout-header="false" show-border="true"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

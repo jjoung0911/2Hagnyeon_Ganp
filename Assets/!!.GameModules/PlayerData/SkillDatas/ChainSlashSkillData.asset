@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b40f6d39b944f7b16eeef6b0166255, type: 3}
+  m_Name: ChainSlashSkillData
+  m_EditorClassIdentifier: Assembly-CSharp::Agents.CombatSystem.SkillDataSO
+  skillName: "\uC5F0\uD658\uCC38"
+  cooldown: 6
+  skillIndex: 10
+  hudOrder: 1
+  damage: 80
+  icon: {fileID: 21300000, guid: 5507e943999849c4dadf8b49c6608398, type: 3}
+  upgradeTiers:
+  - {fileID: 11400000, guid: 3dd79237f38aa334483229e8a22705cd, type: 2}
+  - {fileID: 11400000, guid: 8f292b03074cb7143940265bd761c9a2, type: 2}
+  - {fileID: 11400000, guid: 80f533d25898a064cacfa9cc69ae8d6f, type: 2}
+  - {fileID: 11400000, guid: 0fb94519778e075498f7cb67e12af5e6, type: 2}
+  - {fileID: 11400000, guid: b8c11176d01ba324bb4eb1ce21ed9c66, type: 2}
+  - {fileID: 11400000, guid: 1cbf8cda462fc6b4cb6807c82b447e8d, type: 2}
+  - {fileID: 11400000, guid: 06f4f1c7cb9ede345898ba0b54d8e5f1, type: 2}

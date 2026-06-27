@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="ConfigContainer" style="flex-grow: 0;">
+        <uie:ObjectField label="RootTransform" name="RootObjectField" type="UnityEngine.GameObject, UnityEngine.CoreModule"/>
+        <uie:ObjectField label="Prefabs" name="PrefabListObjectField" type="_00.Scripts.System.Editor.StagePrefabListSO, Assembly-CSharp-Editor"/>
+        <ui:FloatField label="Cell Size" value="0" name="CellSizeFloatField"/>
+        <ui:Vector3Field label="PivotOffset" name="PivotOffsetField" value="0,0,0"/>
+        <ui:Vector3Field label="Rotation" name="RotateField" value="0,0,0"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="ItemSelectContainer" style="flex-grow: 1;">
+        <ui:DropdownField label="Dropdow" name="ItemDropdownField"/>
+        <ui:VisualElement name="PreviewContainer" style="flex-grow: 1; align-items: center; align-self: stretch; justify-content: flex-start;">
+            <ui:VisualElement name="PreviewImage" style="flex-grow: 0; align-self: center; align-items: flex-end; justify-content: flex-start; width: 128px; height: 128px; flex-direction: column; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

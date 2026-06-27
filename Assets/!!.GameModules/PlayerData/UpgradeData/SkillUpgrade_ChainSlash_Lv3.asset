@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47968d3ff3c441940b5d7cca475482fd, type: 3}
+  m_Name: SkillUpgrade_ChainSlash_Lv3
+  m_EditorClassIdentifier: Assembly-CSharp::Agents.CombatSystem.SkillUpgradeSO
+  targetSkill: Player.Skills.PlayerChainSlashSkill
+  targetFields:
+  - targetField: _maxTargetsBonus
+    kind: 1
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  - targetField: _rangeBonus
+    kind: 0
+    floatValue: 3
+    intValue: 3
+    boolValue: 0
+  - targetField: _bossExtraHits
+    kind: 1
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  - targetField: _strikeIntervalReduction
+    kind: 0
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  - targetField: _finalDamageMultiplier
+    kind: 0
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  - targetField: _vfxScaleMultiplier
+    kind: 0
+    floatValue: 0
+    intValue: 0
+    boolValue: 0
+  tierName: "\uC5F0\uD658\uCC38 \uAC15\uD654 III"
+  description: "\uB2E4\uC74C \uB300\uC0C1\uC744 \uD0D0\uC0C9\uD558\uB294 \uBC94\uC704\uAC00
+    3m \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  upgradeCost: 1
+  damageMultiplier: 1
+  cooldownMultiplier: 1

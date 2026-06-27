@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf10af9600de044abcbaa0abb34fcf9, type: 3}
+  m_Name: SkillUpgrade_Dash_UI_Lv2
+  m_EditorClassIdentifier: Assembly-CSharp::System.UpgradeSystem.SkillUpgradeUpgradeSO
+  <Index>k__BackingField: 461
+  <UpgradeName>k__BackingField: "대쉬 강화 II"
+  <Description>k__BackingField: "대쉬 최대 충전 수가 1 더 증가합니다."
+  <Icon>k__BackingField: {fileID: 21300000, guid: 5e346b200335bf045a93a1ffb3a94c84, type: 3}
+  <Grade>k__BackingField: 1
+  skillIndex: 11
+  targetLevel: 2

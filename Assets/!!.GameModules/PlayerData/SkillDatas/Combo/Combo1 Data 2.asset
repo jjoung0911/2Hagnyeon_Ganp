@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e933ae74181b84d95a56a2a2edcb4f, type: 3}
+  m_Name: Combo1 Data 2
+  m_EditorClassIdentifier: Assembly-CSharp::Player.Skills.ComboDataSO
+  Param: {fileID: 11400000, guid: d96b505a3989d73499c5868308658322, type: 2}
+  Damage: 20
+  HitType: 1
+  ComboVfx: {fileID: 11400000, guid: 49add318432bc5f49ba0d099dd3a2db7, type: 2}
+  HitStopTimeScale: 0.05
+  HitStopDuration: 0.12
+  ShakeForce: 0.45
+  ShakeDirection: {x: 0, y: 1, z: 0}
+  SwingSfx: {fileID: 11400000, guid: bfb15ca6c875f13439297204153b6409, type: 2}
+  HitSfx: {fileID: 11400000, guid: e732cc4ab64688a4fbc4c15463e0add4, type: 2}

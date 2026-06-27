@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b31c806b4b3b6854e97d743ecf0c899d, type: 3}
+  m_Name: OrbitSwordDataSO
+  m_EditorClassIdentifier: Assembly-CSharp::Player.Skills.Active.OrbitSwordDataSO
+  <Index>k__BackingField: 0
+  <SkillName>k__BackingField: "\uADA4\uB3C4\uC758 \uAC80"
+  <Icon>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: "\uD50C\uB808\uC774\uC5B4 \uC8FC\uC704\uB97C \uACF5\uC804\uD558\uBA70
+    \uC801\uC744 \uBCA0\uB294 \uAC80\uC744 \uC18C\uD658\uD569\uB2C8\uB2E4."
+  levels:
+  - swordCount: 3
+    floatRadius: 1.5
+    floatHeight: 1
+    floatSpeed: 90
+    detectRadius: 5
+    launchSpeed: 15
+    damage: 5
+    respawnDelay: 2
+  - swordCount: 4
+    floatRadius: 1.5
+    floatHeight: 1
+    floatSpeed: 100
+    detectRadius: 5.5
+    launchSpeed: 16
+    damage: 7
+    respawnDelay: 1.8
+  - swordCount: 5
+    floatRadius: 1.7
+    floatHeight: 1
+    floatSpeed: 110
+    detectRadius: 6
+    launchSpeed: 17
+    damage: 9
+    respawnDelay: 1.6
+  - swordCount: 6
+    floatRadius: 1.8
+    floatHeight: 1
+    floatSpeed: 120
+    detectRadius: 6.5
+    launchSpeed: 18
+    damage: 12
+    respawnDelay: 1.4
+  - swordCount: 7
+    floatRadius: 2
+    floatHeight: 1
+    floatSpeed: 140
+    detectRadius: 7
+    launchSpeed: 20
+    damage: 15
+    respawnDelay: 1.2
+  - swordCount: 9
+    floatRadius: 0
+    floatHeight: 0
+    floatSpeed: 0
+    detectRadius: 0
+    launchSpeed: 0
+    damage: 0
+    respawnDelay: 0
+  - swordCount: 11
+    floatRadius: 0
+    floatHeight: 0
+    floatSpeed: 0
+    detectRadius: 0
+    launchSpeed: 0
+    damage: 0
+    respawnDelay: 0
+  - swordCount: 12
+    floatRadius: 0
+    floatHeight: 0
+    floatSpeed: 0
+    detectRadius: 0
+    launchSpeed: 0
+    damage: 0
+    respawnDelay: 0
+  tickIntervals:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0

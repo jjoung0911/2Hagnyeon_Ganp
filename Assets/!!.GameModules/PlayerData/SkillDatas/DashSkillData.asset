@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b40f6d39b944f7b16eeef6b0166255, type: 3}
+  m_Name: DashSkillData
+  m_EditorClassIdentifier: Assembly-CSharp::_00.Scripts.Agents.CombatSystem.SkillDataSO
+  skillName: DASH
+  cooldown: 1
+  skillIndex: 11
+  damage: 0
+  icon: {fileID: 0}
+  upgradeTiers:
+  - {fileID: 11400000, guid: 5b9664351b154164b6a5c4e258895239, type: 2}
+  - {fileID: 11400000, guid: 7da1089b3e534432a8392a0d5621b1ae, type: 2}

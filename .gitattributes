@@ -1,0 +1,31 @@
+# Unity 텍스트 에셋 — 줄바꿈 정규화
+*.cs               text diff=csharp
+*.shader           text
+*.cginc            text
+*.json             text
+*.md               text
+*.txt              text
+
+# Unity YAML 에셋 — LFS 병합 도구 대상
+*.meta             text
+*.unity            text -merge=unityyamlmerge
+*.asset            text -merge=unityyamlmerge
+*.prefab           text -merge=unityyamlmerge
+*.mat              text -merge=unityyamlmerge
+*.controller       text -merge=unityyamlmerge
+
+# 바이너리 — 변환 금지
+*.png              binary
+*.jpg              binary
+*.jpeg             binary
+*.gif              binary
+*.psd              binary
+*.tga              binary
+*.fbx              binary
+*.obj              binary
+*.wav              binary
+*.mp3              binary
+*.ogg              binary
+*.dll              binary
+*.unitypackage     binary
+*.anim             binary

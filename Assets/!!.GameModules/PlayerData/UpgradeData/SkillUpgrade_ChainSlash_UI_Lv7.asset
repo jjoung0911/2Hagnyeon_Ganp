@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf10af9600de044abcbaa0abb34fcf9, type: 3}
+  m_Name: SkillUpgrade_ChainSlash_UI_Lv7
+  m_EditorClassIdentifier: Assembly-CSharp::System.UpgradeSystem.SkillUpgradeUpgradeSO
+  <Index>k__BackingField: 356
+  <UpgradeName>k__BackingField: "\uBB34\uC601\uB09C\uBB34 \u2014 \uC9C4\uD654"
+  <Description>k__BackingField: "진화 '무영난무': 슬로우모션으로 범위 내 적을 표식한 뒤 사라져 전원을 순차 베어냅니다. 마지막 타격 피해 3배."
+  <Icon>k__BackingField: {fileID: 21300000, guid: 5507e943999849c4dadf8b49c6608398, type: 3}
+  <Grade>k__BackingField: 2
+  skillIndex: 10
+  targetLevel: 7

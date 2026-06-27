@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6508dd8b46082469dc6b9a69838e8c, type: 3}
+  m_Name: ChainLightningDataSO
+  m_EditorClassIdentifier: Assembly-CSharp::Player.Skills.Active.ChainLightningDataSO
+  <Index>k__BackingField: 1
+  <SkillName>k__BackingField: "\uC5F0\uC1C4 \uBC88\uAC1C"
+  <Icon>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: "\uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uC801\uBD80\uD130
+    \uC2DC\uC791\uD574 \uC8FC\uBCC0 \uC801\uC5D0\uAC8C \uBC88\uAC1C\uAC00 \uC62E\uACA8\uBD99\uC2B5\uB2C8\uB2E4."
+  levels:
+  - chainCount: 2
+    chainRange: 6
+    damage: 10
+    damageFalloff: 0.3
+    stunDuration: 0
+  - chainCount: 3
+    chainRange: 6.5
+    damage: 12
+    damageFalloff: 0.25
+    stunDuration: 0
+  - chainCount: 4
+    chainRange: 7
+    damage: 14
+    damageFalloff: 0.2
+    stunDuration: 0
+  - chainCount: 5
+    chainRange: 7.5
+    damage: 16
+    damageFalloff: 0.15
+    stunDuration: 0
+  - chainCount: 6
+    chainRange: 8
+    damage: 20
+    damageFalloff: 0.1
+    stunDuration: 1.5
+  cooldowns:
+  - 8
+  - 7.5
+  - 7
+  - 6.5
+  - 6

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b40f6d39b944f7b16eeef6b0166255, type: 3}
+  m_Name: ComboSkillData
+  m_EditorClassIdentifier: Assembly-CSharp::_00.Scripts.Agents.CombatSystem.SkillDataSO
+  skillName: COMBO
+  cooldown: 0
+  skillIndex: 0
+  damage: 20
+  icon: {fileID: 0}
+  upgradeTiers:
+  - {fileID: 11400000, guid: 5a74914e2007f284cabef5df3b8fe8a0, type: 2}
+  - {fileID: 11400000, guid: d00e54d56deb6f24785883caac43e093, type: 2}
+  - {fileID: 11400000, guid: f56fc18acbfea0a4e88ac97bac4c66c9, type: 2}
+  - {fileID: 11400000, guid: 7f3a9c2e8b1d4f6a9c3e7b2d8f1a4c6e, type: 2}
+  - {fileID: 11400000, guid: a1b2c3d4e5f6789012345678abcdef01, type: 2}
+  - {fileID: 11400000, guid: a1b2c3d4e5f6789012345678abcdef02, type: 2}
+  - {fileID: 11400000, guid: a1b2c3d4e5f6789012345678abcdef03, type: 2}

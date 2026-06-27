@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47968d3ff3c441940b5d7cca475482fd, type: 3}
+  m_Name: SwordRain_Lv7
+  m_EditorClassIdentifier: Assembly-CSharp::Agents.CombatSystem.SkillUpgradeSO
+  targetSkill: Player.Skills.PlayerSwordRainSkill
+  targetFields:
+  - targetField: _areaRadiusBonus
+    kind: 0
+    floatValue: 3
+    intValue: 3
+    boolValue: 0
+  tierName: "\uB099\uD558\uAC80 \uAC15\uD654 VI"
+  description: "\uD53C\uD574\uB7C9 +60%, \uCFE8\uB2E4\uC6B4 -25%, \uB099\uD558 \uBC94\uC704
+    +3m."
+  upgradeCost: 2
+  damageMultiplier: 1.6
+  cooldownMultiplier: 0.75
+  extraValues:
+  - 3
+  unlockedFlags: 00

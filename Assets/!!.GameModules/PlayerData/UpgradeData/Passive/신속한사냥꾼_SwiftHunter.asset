@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4384b593688b1754d9f1729dc2274227, type: 3}
+  m_Name: "\uC2E0\uC18D\uD55C\uC0AC\uB0E5\uAFBC_SwiftHunter"
+  m_EditorClassIdentifier: Assembly-CSharp::System.UpgradeSystem.MultiStatPassiveUpgradeSO
+  <Index>k__BackingField: 240
+  <UpgradeName>k__BackingField: "\uC2E0\uC18D\uD55C \uC0AC\uB0E5\uAFBC"
+  <Description>k__BackingField: "\uC774\uB3D9 \uC18D\uB3C4\uC640 \uB2EC\uB9AC\uAE30
+    \uC18D\uB3C4\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  <Icon>k__BackingField: {fileID: 21300000, guid: 28833eb632d77bd4c949d16fb767a02d, type: 3}
+  <Grade>k__BackingField: 0
+  modifiers:
+  - statIndex: 1
+    modifyAmount: 0.1
+  - statIndex: 2
+    modifyAmount: 0.2
+  maxStack: 5

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47968d3ff3c441940b5d7cca475482fd, type: 3}
+  m_Name: SkillUpgrade_ExecutionSlash_Lv7
+  m_EditorClassIdentifier: Assembly-CSharp::Agents.CombatSystem.SkillUpgradeSO
+  targetSkill: Player.Skills.PlayerExecutionSlashSkill
+  targetFields:
+  - targetField: _bossDamageBonus
+    kind: 0
+    floatValue: 0.3
+    intValue: 0
+    boolValue: 0
+  - targetField: _armorPenRatio
+    kind: 0
+    floatValue: 0.2
+    intValue: 0
+    boolValue: 0
+  - targetField: _lowHpBonusMultiplier
+    kind: 0
+    floatValue: 1
+    intValue: 1
+    boolValue: 0
+  - targetField: _cooldownRefund
+    kind: 0
+    floatValue: 5
+    intValue: 5
+    boolValue: 0
+  - targetField: _isOneFlash
+    kind: 2
+    floatValue: 0
+    intValue: 0
+    boolValue: 1
+  tierName: "\uC77C\uC12C \u2014 \uC9C4\uD654"
+  description: "\uCC98\uCE58 \uC2DC \uCFE8\uB2E4\uC6B4 5\uCD08\uB97C \uD658\uAE09\uBC1B\uC2B5\uB2C8\uB2E4.
+    \uC9C4\uD654: \uC2AC\uB85C\uC6B0 \uBAA8\uC158 \uC2DC\uC804 \uD6C4 \uC801 \uD6C4\uBC29\uC73C\uB85C
+    \uC21C\uAC04\uC774\uB3D9\uD558\uC5EC 1200% \uD53C\uD574\uC758 \uCC98\uD615\uC744
+    \uAC00\uD558\uBA70, \uCCB4\uB825\uC774 20% \uC774\uD558\uC778 \uC77C\uBC18 \uC801\uC740
+    \uC989\uC2DC \uCC98\uCE58\uD569\uB2C8\uB2E4."
+  upgradeCost: 1
+  damageMultiplier: 1
+  cooldownMultiplier: 0.8
+  extraValues:
+  - 0.3
+  - 0.2
+  - 1
+  - 5
+  unlockedFlags: 01

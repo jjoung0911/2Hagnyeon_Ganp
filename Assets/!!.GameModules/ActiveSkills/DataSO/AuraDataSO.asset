@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6dff92834b7435498cfb62e96cc96ce, type: 3}
+  m_Name: AuraDataSO
+  m_EditorClassIdentifier: Assembly-CSharp::Player.Skills.Active.AuraDataSO
+  <Index>k__BackingField: 4
+  <SkillName>k__BackingField: "\uC624\uB77C"
+  <Icon>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: "\uD50C\uB808\uC774\uC5B4 \uC8FC\uC704\uC5D0 \uC9C0\uC18D\uC801\uC73C\uB85C
+    \uD53C\uD574\uB97C \uC8FC\uB294 \uC624\uB77C\uB97C \uC0DD\uC131\uD569\uB2C8\uB2E4."
+  levels:
+  - radius: 4
+    tickDamage: 0.3
+    slowPercent: 0
+    slowDuration: 0
+    cooldown: 4
+    activeDuration: 5
+  - radius: 4.3
+    tickDamage: 0.45
+    slowPercent: 0
+    slowDuration: 0
+    cooldown: 3.7
+    activeDuration: 5.2
+  - radius: 4.6
+    tickDamage: 0.6
+    slowPercent: 0
+    slowDuration: 0
+    cooldown: 3.4
+    activeDuration: 5.4
+  - radius: 5
+    tickDamage: 0.8
+    slowPercent: 0
+    slowDuration: 0
+    cooldown: 3
+    activeDuration: 5.6
+  - radius: 5.2
+    tickDamage: 1.1
+    slowPercent: 0.4
+    slowDuration: 1.5
+    cooldown: 2.5
+    activeDuration: 6
+  - radius: 0
+    tickDamage: 0
+    slowPercent: 0
+    slowDuration: 0
+    cooldown: 0
+    activeDuration: 0
+  - radius: 0
+    tickDamage: 0
+    slowPercent: 0
+    slowDuration: 0
+    cooldown: 0
+    activeDuration: 0
+  - radius: 0
+    tickDamage: 0
+    slowPercent: 0
+    slowDuration: 0
+    cooldown: 0
+    activeDuration: 0
+  tickIntervals:
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0
+  - 0
+  - 0
